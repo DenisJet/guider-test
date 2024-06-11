@@ -64,9 +64,6 @@
 }
 
 @media screen and (width >= 768px) {
-  .service {
-    padding: 50px;
-  }
   
   .title {
     margin-bottom: 30px;
@@ -93,12 +90,14 @@
   .service {
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   .serviceTextContainer {
     padding-left: 60px;
     padding-right: 60px;
+    margin-top: 100px;
+    margin-bottom: auto;
   }
 
   .title {

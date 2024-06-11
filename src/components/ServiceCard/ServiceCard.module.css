@@ -1,6 +1,6 @@
 .card {
-  padding: 50px;
-  height: 100%;
+  padding: 20px;
+  height: 275px;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -9,11 +9,13 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
+  margin-top: 50px;
+  transition: 1s;
 }
 
 .title {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -41,5 +43,10 @@
 
 .card:hover .text {
   margin-top: 15px;
+}
+
+.card:hover .image {
+  margin-top: 0;
+  transition: 2s;
 }
 

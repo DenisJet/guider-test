@@ -1,8 +1,27 @@
 .list {
   border: 1px solid var(--light-gray-color);
+  width: 100%;
 }
 
 .item {
   padding: 20px;
   border-bottom: 1px solid var(--light-gray-color);
+}
+
+@media screen and (width >= 640px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item:nth-child(odd) {
+    border-right: 1px solid var(--light-gray-color);
+  }
+}
+
+@media screen and (width >= 1024px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

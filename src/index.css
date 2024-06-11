@@ -1,5 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
+
+  --primary-color: #2B4074;
+  --black-color: #4A4A4A;
+  --dark-gray-color: #797979;
+  --gray-color: #9B9B9B;
+  --light-gray-color: #F9F6E5;
 }
 
 body {

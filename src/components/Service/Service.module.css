@@ -1,0 +1,39 @@
+.service {
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.serviceTextContainer {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--dark-gray-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.divider {
+  width: 100px;
+  height: 8px;
+  background-color: var(--primary-color);
+  margin: 30px auto;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--gray-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}

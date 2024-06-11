@@ -8,13 +8,17 @@ export type ServiceCardProps = {
   text: string;
 };
 
-export function ServiceCard({ image, title, text }: ServiceCardProps): JSX.Element {
+export function ServiceCard({ image, title, text, id }: ServiceCardProps): JSX.Element {
+  const clickHandler = () => {
+    console.log(id);
+  };
+
   return (
     <div className={styles.card}>
       <img className={styles.image} src={image} alt={`Иконка ${title}`} width={65} height={65} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.text}>{text}</p>
-      <div className={styles.button}>
+      <div className={styles.button} onClick={clickHandler}>
         <Button />
       </div>
     </div>

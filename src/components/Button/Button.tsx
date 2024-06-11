@@ -4,7 +4,7 @@ import styles from './Button.module.css';
 import { ModalContext } from '../../context/modal.context';
 
 export default function Button(): JSX.Element {
-  const { isOpen, setIsOpen } = useContext(ModalContext);
+  const { setIsOpen } = useContext(ModalContext);
 
   return (
     <button className={styles.button} type='button' onClick={() => setIsOpen(true)}>

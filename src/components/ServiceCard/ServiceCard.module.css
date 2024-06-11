@@ -1,0 +1,45 @@
+.card {
+  padding: 50px;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-top: -100px;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.button {
+  transition: 2s ease-in-out;
+  opacity: 0;
+  transition: 2s;
+}
+
+.card:hover {
+  outline: 4px solid var(--primary-color);
+}
+
+.card:hover .text,
+.card:hover .button {
+  opacity: 1;
+  transition: 2s;
+}
+
+.card:hover .text {
+  margin-top: 15px;
+}
+

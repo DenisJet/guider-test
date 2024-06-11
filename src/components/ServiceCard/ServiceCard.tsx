@@ -11,10 +11,12 @@ export type ServiceCardProps = {
 export function ServiceCard({ image, title, text }: ServiceCardProps): JSX.Element {
   return (
     <div className={styles.card}>
-      <img className={styles.image} src={image} alt={`Иконка ${title}`} />
+      <img className={styles.image} src={image} alt={`Иконка ${title}`} width={65} height={65} />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.text}>{text}</p>
-      <Button />
+      <div className={styles.button}>
+        <Button />
+      </div>
     </div>
   );
 }

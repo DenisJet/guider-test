@@ -22,7 +22,7 @@ export default function Modal(): JSX.Element {
             ></path>
           </svg>
         </button>
-        <p>Отправьте свой номер телефона и мы перезвоним Вам в ближайшее время</p>
+        <p>Title</p>
       </div>
     </div>
   );

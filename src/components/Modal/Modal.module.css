@@ -21,8 +21,8 @@
 .modalContent {
   position: relative;
   padding: 15px;
-  color: var(--white);
-  background-color: var(--primary-blue);
+  color: var(--white-color);
+  background-color: var(--primary-color);
   width: 300px;
   height: 275px;
   transform: scale(0.5);

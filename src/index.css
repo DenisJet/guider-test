@@ -8,10 +8,38 @@
   --light-gray-color: #F9F6E5;
 }
 
+html,
 body {
-  margin: 0;
-  padding: 0;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

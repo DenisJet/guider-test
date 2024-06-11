@@ -18,7 +18,7 @@
 .slogan {
   font-size: 20px;
   font-weight: 400;
-  color: var(--dark-gray-color);
+  color: var(--black-color);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -33,7 +33,76 @@
 .text {
   font-size: 15px;
   font-weight: 400;
-  color: var(--gray-color);
+  color: var(--dark-gray-color);
   margin-top: 0;
   margin-bottom: 0;
+}
+
+
+@media screen and (width >= 640px) {
+  .service {
+    padding: 25px 0 0 0;
+  }
+
+  .serviceTextContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  
+  .title {
+    font-size: 48px;
+  }
+  
+  .slogan {
+    font-size: 24px;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (width >= 768px) {
+  .service {
+    padding: 50px;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+  }
+  
+  .slogan {
+    text-align: start;
+  }
+
+  .divider {
+    margin-left: 0;
+  }
+  
+  .text {
+    text-align: start;
+  }
+}
+
+@media screen and (width >= 1024px) {
+ 
+}
+
+@media screen and (width >= 1440px) {
+  .service {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .serviceTextContainer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .title {
+    margin-bottom: 65px;
+    text-align: start;
+  }
 }

@@ -61,10 +61,10 @@ export default function ModalData() {
               ></path>
             </svg>
           </button>
-          <p>
-            <span>id: {data.id}</span>
-            {data.title}
-          </p>
+          <div>
+            <p>id: {data.id}</p>
+            <p>{data.title}</p>
+          </div>
           <p>{data.body}</p>
         </div>
       ) : null}
